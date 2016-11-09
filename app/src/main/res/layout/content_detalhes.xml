@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.gastometro.app.DetalhesActivity"
+    tools:showIn="@layout/activity_detalhes"
+    android:orientation="vertical">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:background="@color/cinza"
+       android:orientation="vertical"
+       android:gravity="center"
+       >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/textview_nome"
+           android:textColor="@color/gold"
+           android:textSize="30sp"
+           android:fontFamily="serif"
+           android:textStyle="bold"
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/textview_valor"
+           android:textColor="@color/gold"
+           android:textSize="20sp"
+           android:fontFamily="serif"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:id="@+id/linear_detalhes"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/cinza"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_data"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/darkGold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categoria"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/cinza"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_categoria"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/darkGold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/cinza"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview_tipo_lancamento"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/darkGold"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

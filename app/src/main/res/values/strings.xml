@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Gastometro</string>
+    <string name="action_deletar">deletar</string>
+    <string name="action_resumo">Resumo</string>
+    <string name="title_activity_inserir">Inserir</string>
+    <string name="title_activity_detalhes">Detalhes</string>
+    <string name="title_activity_editar">Editar</string>
+    <string name="title_activity_resumo">Resumo</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="texto_sobre">
+
+        O Gastometro é um aplicativo que te ajudará a controlar
+        os seus gastos. \n\n
+
+        O aplicativo foi desenvolvido de forma colaborativa pelos alunos da turma
+        do terceiro semestre do curso Técnico de Informatica do SENAI Jandira
+        em outubro de 2016, para unidade curricular "Programação Mobile" sob orientação do Prof. Kassiano.
+
+        \n\n
+
+        O aplicativo é opensource e seu código está disponivel em
+        <a href= "https://github.com/kassiano/Gastometro">
+            https://github.com/kassiano/Gastometro
+        </a> \n
+
+        Visite o site do projeto :\n
+        <a href= "http://gastometrosite.herokuapp.com/">
+            http://gastometrosite.herokuapp.com/
+        </a> \n
+
+        \n\n
+        Alunos participantes do projeto:\n\n
+
+        CAROLINA SANTOS DE SOUZA\n
+        ELLEN MAYARA SILVA MUNGUBA DE MELO\n
+        FERNANDO DE OLIVEIRA LIMA\n
+        GABRIELA LIMA DE ARAUJO\n
+        IGOR SANTOS GOMES\n
+        ISAAC VINICIUS SOUZA SANTOS\n
+        JANAYNA SOUZA JERONIMO DA SILVA\n
+        JOSE GUILHERME BEZERRA PEDRO\n
+        JUAN DE SANTOS BOMFIM\n
+        LEANDRO JORGE NAPOLITANO\n
+        LEONARDO DE ARAUJO PONCIANO\n
+        LETICIA GEOVANA DUARTE MARTIMIANO\n
+        MAIRA SOUZA DE AGUIAR\n
+        MATHEUS OLIVEIRA AMORIM\n
+        NATALIA ALMEIDA DA SILVA\n
+        PEDRO HENRIQUE CUSTÓDIO IGNÁCIO\n
+        VAGNER SANTANA TAMBOLO\n
+        VICTOR HUGO DE AZEVEDO\n
+        WILSON VIANA DA SILVA\n
+
+    </string>
+    <string name="action_salvar">salvar</string>
+
+</resources>
